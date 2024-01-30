@@ -5,7 +5,8 @@
 
 body {
     background-color: #ffffff;
-    width: 100%
+    width: 100%;
+    overflow-x: hidden;
 }
 
 .Logo {
@@ -28,6 +29,9 @@ body {
     top: 0;
 }
 
+header {
+}
+
 .img {
     height: 1000px;
     border: 2px solid #ccc;
@@ -40,7 +44,7 @@ body {
     align-items: center;
     height: 63%;
     justify-content: center;
-    gap: 330px;
+    gap: 300px;
 }
 
 .contorno a {
@@ -68,3 +72,19 @@ footer {
     width: 100%;
     height: 120px;
 }
+
+.box {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 600px){
+    //Adequar a qualquer tela
+    .contorno {
+        gap: 10px;
+    }
+}
+
